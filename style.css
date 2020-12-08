@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    width: 1140px;;
+    margin: auto;
+}
+
+header {
+    width: 1110px;
+    height: 790px;
+    margin: auto;
+}
+
+nav {
+    width: 1110px;
+    height: 340px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav img {
+    margin: 50px 0 60px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    line-height: 17px;
+    margin: 0 23px 14px 23px;
+    padding-bottom: 14px;
+    color: #bab9b9;
+    transition: color 0.5s, background 0.5s;
+    margin-bottom: 50px;
+}
+
+nav ul a:hover{
+    border-bottom: solid 1px #4581b7;
+    color: #4581b7;
+}
+
+ img big{
+    background: no-repeat center /cover;
+    width: 1110px;
+    height: 450px;
+    margin: 0 15px;
+}
+
+main {
+    width: 1110px;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 730px;
+    height: 500px;
+    background-color: #f0f0f0;
+}
+
+.right {
+    width: 350px;
+    height: 500px;
+    background-color: #f0f0f0;
+}
+
+
+.left h3{
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 49px 0 0 40px;
+}
+
+.right h3{
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 49px 0 0 40px;
+}
+
+.left p{
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 25px 98px 0 40px;
+}
+
+.right p{
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 28px  45px 0 40px;
+}
+
+.right h5{
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 13px;
+    margin: 48px 40px;
+}
+
+.right h6 a{
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 51px 40px;
+    text-decoration: none;
+}
+
+footer {
+    width: 1110px;
+    height: 150px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_logo {
+    margin: 16px 0 14px 41px;
+}
+
+.right_foot p{
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 40px 40px 8px 0;
+}
+
+.right_foot h2 {
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 19px;
+    margin: 0 40px 67px 0;
+}
